@@ -1,16 +1,22 @@
 PODS:
-  - MessageKit (0.13.4)
+  - MessageKit (1.0.0)
 
 DEPENDENCIES:
-  - MessageKit (from `../`)
+  - MessageKit (from `https://github.com/andreyvit/MessageKit.git`, branch `keyboard-inset-fix-to-rule-em-all`)
 
 EXTERNAL SOURCES:
   MessageKit:
-    :path: "../"
+    :branch: keyboard-inset-fix-to-rule-em-all
+    :git: https://github.com/andreyvit/MessageKit.git
+
+CHECKOUT OPTIONS:
+  MessageKit:
+    :commit: 9eed4d818216f97eaadc7981de36f47e9f571e86
+    :git: https://github.com/andreyvit/MessageKit.git
 
 SPEC CHECKSUMS:
-  MessageKit: f51122543e9ba8b521e5eab58b0385bd7ce47a10
+  MessageKit: 16160036b16476b04bd0e9f2c7ce67e662e503e4
 
-PODFILE CHECKSUM: cecdb7bc8129cf99f66de9f68eea3256fec30c3d
+PODFILE CHECKSUM: 567bfe572623ab8e01bdfb5d65a511591a8b5750
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
